@@ -3,7 +3,7 @@ title: "User Registration With Email Verification"
 date: 2019-03-22T18:09:14+06:00
 draft: true
 author : "Mohd. Shafikur Rahman"
-tags : ["Django"]
+tags : ["Django", "Django Rest Framework"]
 ---
 
 

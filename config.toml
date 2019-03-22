@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
-paginate = 5
+paginate = 1
 tags = ["Django", "JavaScript"]
 
 [params]
@@ -10,7 +10,7 @@ tags = ["Django", "JavaScript"]
   defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
   showMenuItems = 5
-  showReadingTime = false
+  showReadingTime = true
 
 [languages]
   [languages.en]
@@ -26,7 +26,7 @@ tags = ["Django", "JavaScript"]
     olderPosts = "Older posts"
     minuteReadingTime = "min read"
     dateFormatSingle = "2006-01-02"
-    dateFormatList = "2006-01-02"
+    dateFormatList = "Mon, Jan 2, 2006"
 
     [languages.en.params.logo]
       logoText = "shafikshaon-home"
