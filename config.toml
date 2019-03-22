@@ -2,23 +2,22 @@ baseurl = "/"
 languageCode = "en-us"
 theme = "hello-friend"
 paginate = 5
+tags = ["Django", "JavaScript"]
 
 [params]
-  # dir name of your blog content (default is `content/posts`)
   contentTypeName = "posts"
   # "light" or "dark"
   defaultTheme = "light"
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
-  # Show reading time in minutes for posts
+  showMenuItems = 5
   showReadingTime = false
 
 [languages]
   [languages.en]
-    title = "Hello Friend"
-    subtitle = "A simple theme for Hugo"
+    title = "Mohd. Shafikur Rahman"
+    subtitle = ""
     keywords = ""
-    copyright = ""
+    copyright = "@ Mohd. Shafikur Rahman"
     menuMore = "Show more"
     writtenBy = "Written by"
     readMore = "Read more"
@@ -30,7 +29,7 @@ paginate = 5
     dateFormatList = "2006-01-02"
 
     [languages.en.params.logo]
-      logoText = "hello friend"
+      logoText = "shafikshaon-home"
       logoHomeLink = "/"
     # or
     #
@@ -39,10 +38,17 @@ paginate = 5
 
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "posts"
+        name = "Posts"
+        url = "/posts"
+        weight= 1
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Showcase"
-        url = "/showcase"
+        identifier = "me"
+        name = "Me"
+        url = "/me"
+        weight= 2
+      [[languages.en.menu.main]]
+        identifier = "contact"
+        name = "Contact"
+        url = "/contact"
+        weight= 3
